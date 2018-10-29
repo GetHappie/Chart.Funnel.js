@@ -19013,7 +19013,7 @@ module.exports = function(Chart) {
 		hover: {
 			mode: "label"
 		},
-		sort: 'asc',// sort options: 'asc', 'desc'
+		sort: '',// sort options: 'asc', 'desc'
 		gap: 2,
 		bottomWidth: null,// the bottom width of funnel
 		topWidth: 0, // the top width of funnel
