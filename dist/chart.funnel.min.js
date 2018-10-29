@@ -1,7 +1,7 @@
 /*!
  * Chart.Funnel.js
  * A funnel plugin for Chart.js(http://chartjs.org/)
- * Version: 2.0.0
+ * Version: 1.0.5
  *
  * Copyright 2016 Jone Casaper
  * Released under the MIT license
