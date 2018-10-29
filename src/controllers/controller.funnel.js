@@ -171,15 +171,15 @@ module.exports = function(Chart) {
 				}
 			});
 			var dwRatio = bottomWidth / dMax,
-				sortedDataAndLabels = valAndLabels.sort(
-					sort === 'asc' ?
-						function (a, b) {
-							return a.val - b.val;
-						} :
-						function (a, b) {
-							return b.val - a.val;
-						}
-				);
+			sortedDataAndLabels = sort ? valAndLabels.sort(
+				sort === 'asc' ?
+					function (a, b) {
+						return a.val - b.val;
+					} :
+					function (a, b) {
+						return b.val - a.val;
+					}
+			) : valAndLabels;
 			// For render hidden view
 			// TODO: optimization....
 			var _viewIndex = 0;
